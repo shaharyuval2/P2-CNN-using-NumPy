@@ -11,6 +11,7 @@ To truly understand computer vision, I decided to "break the black box" of high-
 * **Professional Architecture:** sticking to a "Source Layout" design, treating the engine as a reusable, production-ready Python package.
 * **Live Activation Visualization:** A Pygame-based GUI that renders internal feature maps in real-time, visualizing how the data flows through the model.
 
+![CNN_showcase_demo](https://github.com/user-attachments/assets/85a73eb9-1562-4d6f-bfce-81cbe299efb7)
 
 ## My Learnings
 This project served as a rigorous deep dive into both the mathematical and engineering challenges of Deep Learning. Through this implementation, I have honed several key skills:
