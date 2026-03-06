@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "p2_cnn"
+version = "0.1.0"
+description = "A modular Convolutional Neural Network from scratch for MNIST"
+readme = "README.md"
+authors = [{ name = "Shahar", email = "your-email@example.com" }]
+dependencies = [
+    "numpy",
+    "pygame",
+    "scipy",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["p2_cnn*"]
+
+[tool.ruff]
+# Keep your existing Ruff config here
+select = ["E", "F", "I"]
+fix = true

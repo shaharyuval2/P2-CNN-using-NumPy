@@ -1,0 +1,18 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+.vscode/
+
+# Build and Packaging
+*.egg-info/
+dist/
+build/
+
+# Data and Models (Keep the scripts, ignore the data)
+data/*.csv
+data/*.gz
+models/*.npz
+
+# Assets
+assets/
